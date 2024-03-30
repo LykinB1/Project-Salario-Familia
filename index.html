@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Família</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <main>
+        <div id="banner">
+            <img src="images/salario-familia.jpg" alt="">
+        </div>
+        <div id="informacoes">
+            <form action="#">
+                <div>
+                    <input type="text" placeholder="Empregado" class="dados">
+                </div>
+                <div>
+                    <input type="number" placeholder="Quantidade de filhos menores de 14 anos ou inválidos" class="dados">
+                </div>
+                <div>
+                    <input type="number" placeholder="Sálario Contribuição" class="dados">
+                </div>
+            </form>
+        </div>
+        <div id="tabela">
+            <table>
+                <tr> <!--Primeira linha-->
+                    <th>Salário-contribuição</th>
+                    <th>Cota do salário <br> Família</th>
+                </tr>
+                <tr> <!--Segunda linha-->
+                    <td>Até R$806,80</td>
+                    <td>R$41,38 por filho</td>
+                </tr>
+                <tr>
+                    <td>Entre R$806,81 e R$1212,64</td>
+                    <td>R$29,16 por filho</td>
+                </tr>
+                <tr>
+                    <td>Mais de 1212,64</td>
+                    <td>Não há</td>
+                </tr>
+            </table>
+        </div>
+        <div id="calcular">
+            <input type="button" value="Calcular" id="button">
+        </div>
+    </main>
+    
+</body>
+</html>
